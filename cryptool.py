@@ -383,4 +383,5 @@ class Decrypt:
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
+    root.resizable(False, False)
     root.mainloop()
