@@ -11,16 +11,16 @@ class Encrypt:
         self.main_window.geometry("500x350+150+150")
         self.main_window.title("ENCRYPT")
 
-        self.main_bg = tk.PhotoImage(file=f"../assets/encrypt_bg.png")
-        self.encrypt_btn_img = tk.PhotoImage(file=f"../assets/encrypt_btn.png")
-        self.browse_btn_img = tk.PhotoImage(file=f"../assets/browse_btn.png")
-        self.back_btn_img = tk.PhotoImage(file=f"../assets/back_btn.png")
-        self.textbox_img = tk.PhotoImage(file=f"../assets/textBox.png")
+        self.main_bg = tk.PhotoImage(file=f"./assets/encrypt_bg.png")
+        self.encrypt_btn_img = tk.PhotoImage(file=f"./assets/encrypt_btn.png")
+        self.browse_btn_img = tk.PhotoImage(file=f"./assets/browse_btn.png")
+        self.back_btn_img = tk.PhotoImage(file=f"./assets/back_btn.png")
+        self.textbox_img = tk.PhotoImage(file=f"./assets/textBox.png")
 
-        self.saveBtnImg = tk.PhotoImage(file=f"../assets/saveBtn.png")
-        self.shiftBoxImg = tk.PhotoImage(file=f"../assets/shiftText.png")
-        self.plusBtnImg = tk.PhotoImage(file=f"../assets/plusBtn.png")
-        self.minusBtnImg = tk.PhotoImage(file=f"../assets/minusBtn.png")
+        self.saveBtnImg = tk.PhotoImage(file=f"./assets/saveBtn.png")
+        self.shiftBoxImg = tk.PhotoImage(file=f"./assets/shiftText.png")
+        self.plusBtnImg = tk.PhotoImage(file=f"./assets/plusBtn.png")
+        self.minusBtnImg = tk.PhotoImage(file=f"./assets/minusBtn.png")
         self.cypher_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                             'J',
                             'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1',
@@ -167,9 +167,9 @@ class App:
         self.main_window.title("CRYPTOOL")
         self.main_window.geometry("500x350+150+150")
 
-        self.main_bg = tk.PhotoImage(file=f"../assets/bg_main.png")
-        self.img0 = tk.PhotoImage(file=f"../assets/decrypt_btn_main.png")
-        self.img1 = tk.PhotoImage(file=f"../assets/encrypt_btn_main.png")
+        self.main_bg = tk.PhotoImage(file=f"./assets/bg_main.png")
+        self.img0 = tk.PhotoImage(file=f"./assets/decrypt_btn_main.png")
+        self.img1 = tk.PhotoImage(file=f"./assets/encrypt_btn_main.png")
 
         # Main Canvas BG
         utils.getCanvas(self.main_window, "#ffffff", self.main_bg, 0, 0, 500, 350, 250.0, 175.0, "ridge")
@@ -204,16 +204,16 @@ class Decrypt:
         self.main_window.geometry("500x350+150+150")
         self.main_window.title("DECRYPT")
 
-        self.main_bg = tk.PhotoImage(file=f"../assets/decrypt_bg.png")
-        self.decrypt_btn_img = tk.PhotoImage(file=f"../assets/decrypt_btn.png")
-        self.browse_btn_img = tk.PhotoImage(file=f"../assets/browse_btn.png")
-        self.back_btn_img = tk.PhotoImage(file=f"../assets/back_btn.png")
-        self.textbox_img = tk.PhotoImage(file=f"../assets/textBox.png")
+        self.main_bg = tk.PhotoImage(file=f"./assets/decrypt_bg.png")
+        self.decrypt_btn_img = tk.PhotoImage(file=f"./assets/decrypt_btn.png")
+        self.browse_btn_img = tk.PhotoImage(file=f"./assets/browse_btn.png")
+        self.back_btn_img = tk.PhotoImage(file=f"./assets/back_btn.png")
+        self.textbox_img = tk.PhotoImage(file=f"./assets/textBox.png")
 
-        self.saveBtnImg = tk.PhotoImage(file=f"../assets/saveBtn.png")
-        self.shiftBoxImg = tk.PhotoImage(file=f"../assets/shiftText.png")
-        self.plusBtnImg = tk.PhotoImage(file = f"../assets/plusBtn.png")
-        self.minusBtnImg = tk.PhotoImage(file=f"../assets/minusBtn.png")
+        self.saveBtnImg = tk.PhotoImage(file=f"./assets/saveBtn.png")
+        self.shiftBoxImg = tk.PhotoImage(file=f"./assets/shiftText.png")
+        self.plusBtnImg = tk.PhotoImage(file = f"./assets/plusBtn.png")
+        self.minusBtnImg = tk.PhotoImage(file=f"./assets/minusBtn.png")
         self.cypher_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
                        'J',
                        'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0','1','2','3','4','5','6','7','8','9']
